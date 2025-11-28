@@ -1,14 +1,43 @@
-import { EventConfig } from './types';
+import { AppConfig } from './types';
 
-export const EVENT_DETAILS: EventConfig = {
-  title: "Gran Impacto Evangelístico",
-  subtitle: "Culto Unido Juvenil",
-  dateIso: "2025-11-29T19:00:00-03:00", 
-  locationName: "Plaza San Martín, Plottier, Neuquén",
-  locationMapUrl: "https://www.google.com/maps/search/?api=1&query=Plaza%20San%20Martin%20Plottier%20Neuquen%20Argentina",
+
+
+export const APP_CONFIG: AppConfig = {
   whatsappNumber: "5492995046674",
-  whatsappMessage: "¡Hola! Quiero confirmar que voy al Gran Impacto Evangelístico en Plaza San Martín.",
-  guests: ["Maxi y Daniela Gianfelici", "Bandas en vivo"]
+  whatsappMessage: "¡Hola! Quiero confirmar mi asistencia a los eventos del fin de semana.",
+  events: [
+    {
+      id: "event-1",
+      title: "24HS CASA DE ORACIÓN",
+      description: "24 horas de clamor e intercesión",
+      dateIso: "2025-11-28T19:00:00-03:00",
+      locationName: "Av. San Martin 440, Plottier",
+      locationMapUrl: "https://www.google.com/maps/search/?api=1&query=Av+San+Martin+440+Plottier+Neuquen",
+    },
+    {
+      id: "event-2",
+      title: "GRAN IMPACTO EVANGELÍSTICO",
+      subtitle: "Culto Unido Juvenil",
+      dateIso: "2025-11-29T17:00:00-03:00",
+      locationName: "Plaza San Martín, Plottier",
+      locationMapUrl: "https://www.google.com/maps/search/?api=1&query=Plaza+San+Martin+Plottier+Neuquen",
+      guests: ["Maxi y Daniela Gianfelici"]
+    },
+    {
+      id: "event-3",
+      title: "EL CIELO EN LA TIERRA",
+      subtitle: "Fiesta de Salvación & Milagros",
+      description: "Fiesta de Salvación & Milagros",
+      dateIso: "2025-11-30T20:00:00-03:00",
+      locationName: "Av. San Martin 440, Plottier",
+      locationMapUrl: "https://www.google.com/maps/search/?api=1&query=Av+San+Martin+440+Plottier+Neuquen",
+      guests: ["Maxi y Daniela Gianfelici"]
+    }
+  ]
 };
 
-export const GOOGLE_CALENDAR_LINK = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Gran+Impacto+Evangelistico&details=Culto+unido+juvenil+en+Plaza+San+Martin%2C+Plottier&location=Plaza+San+Martin%2C+Plottier%2C+Neuquen&dates=20251129T220000Z/20251130T000000Z";
+export const SLIDER_IMAGES = [
+  'slide1.jpg',
+  'slide2.jpg',
+  'slide3.jpg'
+];

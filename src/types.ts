@@ -5,13 +5,19 @@ export interface TimeLeft {
   seconds: number;
 }
 
-export interface EventConfig {
+export interface EventDetails {
+  id: string;
   title: string;
-  subtitle: string;
+  subtitle?: string;
   dateIso: string;
   locationName: string;
   locationMapUrl: string;
+  guests?: string[];
+  description?: string;
+}
+
+export interface AppConfig {
   whatsappNumber: string;
   whatsappMessage: string;
-  guests: string[];
+  events: EventDetails[];
 }
