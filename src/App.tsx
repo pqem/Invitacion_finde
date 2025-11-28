@@ -246,13 +246,22 @@ export default function App() {
           </div>
 
           {/* Action Buttons (Fixed at bottom of container) */}
-          <div className="mt-4 grid grid-cols-4 gap-2">
+          <div className="mt-4 grid grid-cols-5 gap-2">
             <button
               onClick={() => downloadICS(currentEvent)}
               className="col-span-1 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-xl flex items-center justify-center border border-slate-700 active:scale-95 transition-all"
             >
               <CalendarIcon />
             </button>
+
+            <a
+              href={currentEvent.locationMapUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="col-span-1 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-xl flex items-center justify-center border border-slate-700 active:scale-95 transition-all"
+            >
+              <NavigationIcon />
+            </a>
 
             <button
               onClick={handleShare}
