@@ -161,10 +161,10 @@ export default function App() {
               <img
                 src={event.image}
                 alt={event.title}
-                className="absolute inset-0 w-full h-full object-cover sm:object-contain p-0 sm:p-4 drop-shadow-2xl"
+                className="absolute inset-0 w-full h-full object-contain p-0 sm:p-4 drop-shadow-2xl"
               />
               {/* Gradient Overlay at bottom */}
-              <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#020617] to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#020617]/50 to-transparent" />
             </div>
           ))}
 
