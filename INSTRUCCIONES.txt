@@ -1,0 +1,73 @@
+# INSTRUCCIONES PARA COMPLETAR EL PROYECTO
+
+## ✅ Archivos ya creados:
+- index.html
+- App.tsx (código principal con React)
+- index.tsx
+- manifest.json (PWA)
+- package.json
+- tsconfig.json
+- vite.config.ts
+- README.md
+- .gitignore
+
+## 📸 Archivos que DEBES agregar:
+
+### 1. preview.jpg (TU FLYER)
+- Copia tu imagen del flyer aquí
+- Tamaño recomendado: 1080 x 1920 px
+- Peso: < 200 KB
+
+### 2. icon-192.png
+- Crea un icono de 192x192 px
+- Puede ser tu logo o las letras "GI"
+- Formato PNG con fondo
+
+### 3. icon-512.png
+- Crea un icono de 512x512 px
+- Mismo diseño que el anterior
+- Formato PNG con fondo
+
+## 🚀 Cómo ejecutar el proyecto:
+
+### Opción 1: Desarrollo local
+1. Abre terminal en esta carpeta
+2. Ejecuta: npm install
+3. Ejecuta: npm run dev
+4. Abre el navegador en http://localhost:5173
+
+### Opción 2: Subir a GitHub Pages
+1. Crea un repositorio en GitHub llamado "Invitacion"
+2. Sube todos estos archivos
+3. Ve a Settings → Pages
+4. Selecciona rama "main" y carpeta "/ (root)"
+5. Guarda y espera 2-3 minutos
+6. Tu sitio estará en: https://tuusuario.github.io/Invitacion/
+
+## 🎨 Crear los iconos fácilmente:
+
+Usa una de estas herramientas online:
+- https://favicon.io/ (genera desde texto o imagen)
+- https://realfavicongenerator.net/ (automático)
+- Canva (diseña 512x512 y exporta)
+
+## ⚙️ Personalización:
+
+Para cambiar detalles del evento, edita el archivo App.tsx:
+- Busca la sección "const EVENT_DETAILS"
+- Cambia título, fecha, ubicación, etc.
+
+## 📱 Probar la PWA:
+
+1. Sube el proyecto a GitHub Pages o servidor
+2. Abre desde un móvil
+3. Verás un banner para "Instalar App"
+4. Instala y tendrás un ícono en tu pantalla
+
+## ❓ ¿Necesitas ayuda?
+
+Vuelve a preguntarme en Claude si tienes dudas sobre:
+- Cómo crear los iconos
+- Cómo subir a GitHub
+- Cómo personalizar el diseño
+- Cualquier error que encuentres

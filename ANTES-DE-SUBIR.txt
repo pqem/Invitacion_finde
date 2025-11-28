@@ -1,0 +1,113 @@
+# ✅ CHECKLIST ANTES DE SUBIR A GITHUB
+
+## 🗑️ PASO 1: ELIMINAR ARCHIVOS DUPLICADOS (IMPORTANTE)
+
+Abre el explorador de archivos y ELIMINA estos archivos de la RAÍZ del proyecto:
+
+❌ App.tsx (en la raíz, NO el de src/)
+❌ index.tsx (en la raíz, NO el de src/)
+
+Debes tener:
+✅ src/App.tsx (este SÍ se queda)
+✅ src/index.tsx (este SÍ se queda)
+
+---
+
+## 🧪 PASO 2: PROBAR LOCALMENTE
+
+Abre CMD y ejecuta:
+
+```bash
+cd "C:\Users\pablo\OneDrive\Desktop\Claude\Invitacion"
+npm run build
+```
+
+Si compila SIN ERRORES ✅, continúa al paso 3.
+Si hay errores ❌, cópiame el error completo.
+
+---
+
+## 📤 PASO 3: SUBIR A GITHUB
+
+### Opción A: Usando Git CMD (Recomendado)
+
+```bash
+cd "C:\Users\pablo\OneDrive\Desktop\Claude\Invitacion"
+
+# Inicializar (si es nuevo repo)
+git init
+git add .
+git commit -m "Initial commit - Gran Impacto Evangelístico"
+git branch -M main
+git remote add origin https://github.com/pqem/Invitacion.git
+git push -u origin main
+```
+
+### Opción B: Usando GitHub Desktop
+
+1. File → Add Local Repository
+2. Selecciona la carpeta Invitacion
+3. Commit to main
+4. Publish repository
+
+---
+
+## ⚙️ PASO 4: CONFIGURAR GITHUB PAGES
+
+1. Ve a Settings → Pages
+2. Source: "GitHub Actions"
+3. Espera 3-5 minutos
+4. Visita: https://pqem.github.io/Invitacion/
+
+---
+
+## 📋 ARCHIVOS QUE DEBEN ESTAR EN EL REPO
+
+### Carpeta raíz:
+✅ index.html
+✅ package.json
+✅ package-lock.json
+✅ tsconfig.json
+✅ vite.config.ts
+✅ .gitignore
+✅ README.md
+✅ preview.jpg
+✅ favicon-*.png (todos los favicons)
+✅ .github/workflows/deploy.yml
+
+### Carpeta src/:
+✅ src/App.tsx
+✅ src/index.tsx
+
+### NO deben subirse:
+❌ node_modules/ (ignorado por .gitignore)
+❌ dist/ (se genera automáticamente)
+❌ App.tsx en la raíz
+❌ index.tsx en la raíz
+
+---
+
+## 🚨 SI HAY PROBLEMAS
+
+### Error: "React is declared but never used"
+→ Ya está solucionado en el tsconfig.json
+
+### Error: "Cannot find module"
+→ Verifica que eliminaste los App.tsx e index.tsx de la raíz
+
+### Página en blanco en GitHub Pages
+→ Espera 5 minutos y refresca con Ctrl+Shift+R
+→ Verifica que GitHub Actions esté en "Source" en Pages
+
+---
+
+## ✅ VERIFICACIÓN FINAL
+
+Antes de subir, verifica:
+- [ ] Eliminaste App.tsx de la raíz
+- [ ] Eliminaste index.tsx de la raíz  
+- [ ] `npm run build` compila sin errores
+- [ ] preview.jpg está en la raíz
+- [ ] Todos los favicons están en la raíz
+
+Si todos los checks están ✅, ¡sube el repo!
