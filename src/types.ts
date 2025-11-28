@@ -12,6 +12,7 @@ export interface EventDetails {
   dateIso: string;
   locationName: string;
   locationMapUrl: string;
+  image: string;
   guests?: string[];
   description?: string;
 }

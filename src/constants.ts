@@ -13,6 +13,7 @@ export const APP_CONFIG: AppConfig = {
       dateIso: "2025-11-28T19:00:00-03:00",
       locationName: "Av. San Martin 440, Plottier",
       locationMapUrl: "https://www.google.com/maps/search/?api=1&query=Av+San+Martin+440+Plottier+Neuquen",
+      image: "slide1.jpg"
     },
     {
       id: "event-2",
@@ -21,7 +22,8 @@ export const APP_CONFIG: AppConfig = {
       dateIso: "2025-11-29T17:00:00-03:00",
       locationName: "Plaza San Martín, Plottier",
       locationMapUrl: "https://www.google.com/maps/search/?api=1&query=Plaza+San+Martin+Plottier+Neuquen",
-      guests: ["Maxi y Daniela Gianfelici"]
+      guests: ["Maxi y Daniela Gianfelici"],
+      image: "slide2.jpg"
     },
     {
       id: "event-3",
@@ -31,13 +33,8 @@ export const APP_CONFIG: AppConfig = {
       dateIso: "2025-11-30T20:00:00-03:00",
       locationName: "Av. San Martin 440, Plottier",
       locationMapUrl: "https://www.google.com/maps/search/?api=1&query=Av+San+Martin+440+Plottier+Neuquen",
-      guests: ["Maxi y Daniela Gianfelici"]
+      guests: ["Maxi y Daniela Gianfelici"],
+      image: "slide3.jpg"
     }
   ]
 };
-
-export const SLIDER_IMAGES = [
-  'slide1.jpg',
-  'slide2.jpg',
-  'slide3.jpg'
-];
