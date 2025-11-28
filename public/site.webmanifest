@@ -1,12 +1,6 @@
 {
-  "name": "Gran Impacto Evangelístico",
-  "short_name": "Gran Impacto",
-  "description": "Culto Unido Juvenil - 29 de Noviembre",
-  "start_url": "/Invitacion/",
-  "display": "standalone",
-  "background_color": "#020617",
-  "theme_color": "#3b82f6",
-  "orientation": "portrait",
+  "name": "Invitación Especial ✨",
+  "short_name": "Invitación",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -18,5 +12,8 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "theme_color": "#3b82f6",
+  "background_color": "#020617",
+  "display": "standalone"
 }
