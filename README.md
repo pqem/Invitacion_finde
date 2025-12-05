@@ -63,3 +63,4 @@ Cada push a `main` compila y publica automáticamente.
 **Evento:** Sábado 29 de Noviembre, 2025 · 19:00 hs
 **Lugar:** Plaza San Martín, Plottier, Neuquén
 **Organiza:** CCE
+<!-- Deployment trigger -->
